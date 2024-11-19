@@ -1,5 +1,5 @@
 from django import forms
-from .models import Group
+from .models import Group, Comment
 
 class GroupCreationForm(forms.ModelForm):
     class Meta:
